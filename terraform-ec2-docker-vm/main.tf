@@ -54,14 +54,14 @@ resource "aws_instance" "myInstance" {
   instance_type = "t2.micro"
   security_groups = ["${aws_security_group.myInstance-ssh-http.name}"]
   key_name = "demo-key-terraform-us-east-2"
-  /*user_data     = <<-EOF
+  user_data     = <<-EOF
                   #!/bin/bash
                   sudo apt-get update
                   sudo apt-get -y install docker.io
                   sudo ln -sf /usr/bin/docker.io /usr/local/bin/docker
                   sudo sed -i '$acomplete -F _docker docker' /etc/bash_completion.d/docker.io                   
                   EOF
-    */
+    
 
   tags = {
     Name = "dockervm"
