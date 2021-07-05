@@ -172,7 +172,7 @@ sudo docker build .
 
 8. Now you can run the nginx container on the  ec2 instance
 
-![nginxx](./images/nginx.png)
+![nginxx](./images/nginx2.png)
 
 
 
