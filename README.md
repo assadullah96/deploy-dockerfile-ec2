@@ -170,7 +170,9 @@ sudo docker build .
 
 ![vm_dockerfile](./images/vm_dockerfile.png)
 
-8. Now you can run the nginx container on the  ec2 instance also
+8. Now you can run the nginx container on the  ec2 instance
+
+![nginx](./images/nginx.png)
 
 
 
